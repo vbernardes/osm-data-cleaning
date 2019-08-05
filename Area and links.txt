@@ -1,0 +1,8 @@
+Area chosen: Southeastern part of Minas Gerais state of Brazil, around city of Juiz de Fora.
+
+This area was chosen because it contains the city I currently live in (Juiz de Fora). In addition to that, as the region does not contain any major metropolitan areas (which are likely to have more visibility), the area is likely to present many cleaning opportunities.
+
+Links:
+- Region in OSM: https://osm.org/go/PAJxFl-
+- Map region image: http://imgur.com/a/aPx5M
+- MapZen extract: https://s3.amazonaws.com/mapzen.odes/ex_PmNWYqrXYgvDgWzhUJbgzQ2AdzWRS.osm.bz2
