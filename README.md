@@ -8,7 +8,7 @@ This aim of this project was to retrieve data on a region from [Open Street Map]
 
 The region chosen for data cleaning is located on the Southeastern part of Brazil, comprising a sizable part of the state of Minas Gerais and a small part of Rio de Janeiro.
 
-![Map of chosen region](https://github.com/vbernardes/osm-data-cleaning/blob/master/map.png)
+![Map of chosen region](https://raw.githubusercontent.com/vbernardes/osm-data-cleaning/master/map.png)
 
 [Click here](https://osm.org/go/PAJxFl-) to view the region on Open Street Map.
 
