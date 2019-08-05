@@ -22,8 +22,8 @@ from opening_hours import clean_opening_hours, is_opening_hours
 from phone_numbers import clean_phone, is_phone
 
 
-filename = 'Juiz de Fora Region.osm'
-# filename = 'sample.osm'
+# filename = 'Juiz de Fora Region.osm'
+filename = 'sample.osm'
 
 
 CREATED = [ 'version', 'changeset', 'timestamp', 'user', 'uid']
