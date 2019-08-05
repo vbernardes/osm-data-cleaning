@@ -13,7 +13,7 @@ from collections import OrderedDict
 
 
 def get_db():
-    """"Return a pointer to the local database."""
+    """Return a pointer to the local database."""
     from pymongo import MongoClient
     client = MongoClient('localhost:27017')
     db = client.osm
@@ -152,7 +152,7 @@ def count_unique_cities(db):
 
 
 def get_street_names(db):
-    """"Get unique street names from 'way' elements in the data set."""
+    """Get unique street names from 'way' elements in the data set."""
     result = db.southeast.find({'element_type':'way', 'highway':'residential', 'name':{'$ne':None}},
                                projection={ 'name':1, '_id':0 })
 
@@ -175,7 +175,7 @@ def get_street_names(db):
 
 
 def aggregate(db, pipeline):
-    """"Pass the given pipeline to MongoDB aggregation framework."""
+    """Pass the given pipeline to MongoDB aggregation framework."""
     result = db.southeast.aggregate(pipeline)
     return result
 
